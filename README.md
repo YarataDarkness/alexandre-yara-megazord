@@ -1,3 +1,6 @@
 # alexandre-yara-megazord
 
-Nom du groupe: Alexandre Daniel et Yara Abdanor
+Alexandre Daniel et Yara Abdanor
+
+OPTIMISATION WEB
+
