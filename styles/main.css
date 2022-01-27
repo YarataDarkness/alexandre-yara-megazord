@@ -7,3 +7,7 @@
 --title: 'Russo One', sans-serif;
 --normal:'Quicksand', sans-serif;
 }
+
+body {
+    font-size: 16px;
+}
