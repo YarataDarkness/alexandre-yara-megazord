@@ -5,3 +5,7 @@
 --blue: #2667ffff;
 --dark_blue: #6c8eadff;
 }
+
+body {
+    font-size: 16px;
+}
