@@ -37,5 +37,5 @@ body {
 }
 
 .imgHero img{
-    object-fit: fill;
+    object-fit: cover;
 }
