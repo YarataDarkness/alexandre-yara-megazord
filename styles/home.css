@@ -17,4 +17,5 @@ picture{
 picture img{
     object-fit: fill;
     object-position: 50% 50%;
+    image-orientation: inherit;
 }
