@@ -13,3 +13,7 @@ picture{
     width: 100vw;
     height: 100vh;
 }
+
+picture img{
+    object-fit: fill;
+}
