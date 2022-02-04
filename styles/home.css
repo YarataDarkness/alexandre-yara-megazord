@@ -19,3 +19,8 @@ picture img{
     object-fit: fill;
     object-position: 50% 50%;
 }
+
+.insidehero{
+    background-color: #6c8eadff;
+    opacity: 35%;
+}
