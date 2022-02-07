@@ -3,7 +3,7 @@ body{
 }
 
 @media screen and(orientation: landscape) {
-    .hero{
+    .insidehero{
         height: 56.25%;
     }
 }
@@ -24,6 +24,8 @@ picture img{
     background-color: #6c8eadff;
     opacity: 35%;
 
-    margin:0%;
     position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
 }
