@@ -23,4 +23,7 @@ picture img{
     height: 170vh;
     background-color: #6c8eadff;
     opacity: 35%;
+
+    margin:0%;
+    position: fixed;
 }
