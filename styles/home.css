@@ -25,5 +25,5 @@ picture img{
     opacity: 35%;
 
     margin:0%;
-    position: fixed;
+    position: absolute;
 }
