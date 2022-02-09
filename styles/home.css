@@ -1,4 +1,6 @@
-body{
+html, body{
+    margin: 0px;
+    height: 100%;
     color: #2667ffff;
 }
 
@@ -19,8 +21,8 @@ picture img{
 }
 
 .insidehero{
-    width: 170vw;
-    height: 170vh;
+    
+    height: 100%;
     background-color: #6c8eadff;
     opacity: 35%;
 
