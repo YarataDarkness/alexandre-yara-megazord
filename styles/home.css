@@ -1,6 +1,6 @@
 html, body{
     margin: 0px;
-    height: 100%;
+    height: 100vh;
     color: #2667ffff;
 }
 
@@ -22,7 +22,7 @@ picture img{
 
 .insidehero{
     width: 100vw;
-    height: 100%;
+    height: 100vh;
     background-color: #6c8eadff;
     opacity: 35%;
 
