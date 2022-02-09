@@ -3,13 +3,16 @@
 --black: #37323eff;
 --white: #fbfff1ff;
 --blue: #2667ffff;
+--blue_opa:#2667ff11;
 --dark_blue: #6c8eadff;
 --title: 'Russo One', sans-serif;
 --normal:'Quicksand', sans-serif;
 }
 
 body {
+    height: 100vh;
     font-size: 16px;
+    background-color: var(--blue);
 }
 
 .title-1{
@@ -25,17 +28,25 @@ body {
 }
 
 .hero{
-    width: 100vw;
+    /*width: 100vw;*/
     height: 100vh;
-    background-color: var(--blue);
+    background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://www.game-ost.com/static/covers_soundtracks/1/6/16320_401488.jpg");
+    background-position-y: 25%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-
 @media screen and (orientation: landscape){
     .hero{
-        height: 56.25vh;
+        height: 56.25%;
+        background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://www.mobygames.com/images/covers/l/534548-sonic-adventure-playstation-3-front-cover.jpg");
     }
 }
 
 .imgHero img{
-    object-fit: fill;
+    position: relative;
+    /*color: var(--blue_opa);*/
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
