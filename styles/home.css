@@ -23,13 +23,14 @@ picture img{
 .insidehero{
     height: 100vh;
     background-color: #6c8eadff;
-    opacity: 35%;
+    opacity: 15%;
+
     top: 0px;
     right: 0px;
     bottom:0px;
     left:0px;
     position: absolute;
-    z-index: 1;
+
 }
 
 h1{
