@@ -31,3 +31,8 @@ picture img{
     position: absolute;
     z-index: 1;
 }
+
+h1{
+    font-family: 'Russo One', sans-serif;
+    text-emphasis-color: #d00000ff;
+}
