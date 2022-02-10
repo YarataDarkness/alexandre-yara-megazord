@@ -80,3 +80,9 @@ button{
 .navbar-toggler-icon{
     color: #fbfff1ff;
 }
+
+footer{
+    background-color: var(--blue_opa);
+    margin: 20px;
+    margin-top: 20px;
+}
