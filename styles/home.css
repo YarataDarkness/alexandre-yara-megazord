@@ -69,6 +69,6 @@ button{
 
 .navbar{
     width: 100%;
-    background-color: var(--blue_opa);
+    background-color: var(--black);
     color: #fbfff1ff;
 }
