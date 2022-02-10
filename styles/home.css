@@ -72,3 +72,7 @@ button{
     background-color: var(--black);
     color: #fbfff1ff;
 }
+
+.nav-item{
+    color: #fbfff1ff;
+}
