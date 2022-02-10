@@ -26,6 +26,7 @@ body {
 }
 
 .title-3{
+    font-family: var(--normal);
     font-size:25px;
 }
 
@@ -68,4 +69,11 @@ button{
     background-color: var(--dark_blue);
     color: var(--white);
     border: none;
+}
+
+footer{
+    text-align:center;
+    background-color:var(--red);
+    margin-top: 20px;
+    padding: 20px;
 }
