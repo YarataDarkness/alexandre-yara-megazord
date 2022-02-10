@@ -1,0 +1,41 @@
+:root{
+    --red: #d00000ff;
+--black: #37323eff;
+--white: #fbfff1ff;
+--blue: #2667ffff;
+--dark_blue: #6c8eadff;
+--title: 'Russo One', sans-serif;
+--normal:'Quicksand', sans-serif;
+}
+
+body {
+    font-size: 16px;
+}
+
+.title-1{
+    font-size:48px;
+}
+
+.title-2{
+    font-size:32px;
+}
+
+.title-3{
+    font-size:25px;
+}
+
+.hero{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--blue);
+}
+
+@media screen and (orientation: landscape){
+    .hero{
+        height: 56.25vh;
+    }
+}
+
+.imgHero img{
+    object-fit: cover;
+}
