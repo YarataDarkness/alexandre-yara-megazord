@@ -36,7 +36,7 @@ picture img{
     width: 100vw;
     height: 100vh;
     background-color: #6c8eadff;
-    opacity: 25%;
+    opacity: 35%;
 
     top: 0px;
     right: 0px;
@@ -68,6 +68,5 @@ button{
 }
 
 .navbar{
-
     background-color: var(--black);
 }
