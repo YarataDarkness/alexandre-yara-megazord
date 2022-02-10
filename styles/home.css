@@ -83,7 +83,6 @@ button{
 
 footer{
     background-color: var(--blue_opa);
-    margin: 20px;
-    margin-top: 20px;
+    
     text-align: center;
 }
