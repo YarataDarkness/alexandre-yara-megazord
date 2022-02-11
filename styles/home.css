@@ -9,8 +9,7 @@
 --normal:'Quicksand', sans-serif;
 }
 
-
-html, body{
+body{
     height: 100vh;
     font-size: 16px;
     background-color: var(--blue);
