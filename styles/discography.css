@@ -52,12 +52,16 @@ body {
     margin-top: 25%;
 }
 
+.imgHero{
+    background-image: linear-gradient(var(--blue_opa), var(--blue));
+}
 .imgHero img{
     position: relative;
-    /*color: var(--blue_opa);*/
+    color: var(--blue_opa);
     width: 100%;
     height: 100%;
     object-fit: cover;
+    background-image: linear-gradient(var(--blue_opa), var(--blue));
 }
 
 button{
