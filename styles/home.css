@@ -26,7 +26,7 @@ picture{
     height: 100vh;
 }
 
-picture img{
+.hero-picture{
     position: relative;
     width: 100%;
     height: 100%;
