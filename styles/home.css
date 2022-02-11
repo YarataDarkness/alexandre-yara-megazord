@@ -57,7 +57,6 @@ p{
 }
 
 button{
-    font-size:25px;
     font-family: var(--normal);
     padding: 25px;
     border-radius: 20px;
