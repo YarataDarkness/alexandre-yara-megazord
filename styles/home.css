@@ -104,3 +104,10 @@ footer{
     margin-top: 20px;
     padding: 20px;
 }
+
+.crush-logo{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
