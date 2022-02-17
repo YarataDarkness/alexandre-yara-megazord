@@ -130,3 +130,8 @@ footer{
     right:auto;
     width: 20%;
 }
+
+#barre-lateral img{
+    max-width: 100%;
+    height: auto;
+}
