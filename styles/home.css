@@ -127,6 +127,6 @@ footer{
 }
 
 #barre-lateral{
-    
+    right:auto;
     width: 20%;
 }
