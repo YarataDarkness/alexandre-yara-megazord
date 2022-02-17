@@ -47,6 +47,15 @@ picture{
 
 }
 
+.insidehero .collapse{
+    background-color: #6c8eadff;
+    opacity: 0%;
+}
+
+
+
+
+
 
 h1{
     font-family: var(--title);
