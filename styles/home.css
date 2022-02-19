@@ -136,3 +136,21 @@ footer{
     max-width: 100%;
     height: auto;
 }
+
+.link{
+
+    color:var(--black);
+
+    text-decoration: none;
+
+}
+
+
+
+.link:hover{
+
+    color:var(--black);
+
+    text-decoration: none;
+
+}
