@@ -115,6 +115,15 @@ footer{
     
 }
 
+.crush-logo{
+    padding: 0;
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+} 
+
 .crush-logo-pic{
     padding: 0;
     position: relative;
@@ -123,6 +132,8 @@ footer{
     max-width: 100%;
     height: auto;
 }
+
+
 
 .undefined-img{
     position: fixed;
