@@ -73,6 +73,7 @@ h1{
 .title-3{
     font-family: var(--normal);
     font-size:25px;
+    color:var(--black);
 }
 
 
