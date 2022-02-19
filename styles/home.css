@@ -136,7 +136,8 @@ footer{
 
 
 .undefined-img{
-    position: fixed;
+    position: absolute;
+    
 }
 
 #barre-lateral{
