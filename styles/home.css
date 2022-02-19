@@ -140,7 +140,6 @@ footer{
 .link{
 
     color:var(--black);
-
     text-decoration: none;
 
 }
@@ -150,7 +149,6 @@ footer{
 .link:hover{
 
     color:var(--black);
-
     text-decoration: none;
 
 }
