@@ -109,9 +109,9 @@ button{
 footer{
     text-align:center;
     background-color:var(--red);
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     padding: 20px;
-    position: absolute;
+
 
 }
 
