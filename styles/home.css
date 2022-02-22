@@ -96,6 +96,7 @@ button{
     background-color: var(--dark_blue);
     color: var(--white);
     border: none;
+    
 }
 
 .navbar{
