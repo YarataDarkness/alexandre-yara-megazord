@@ -97,6 +97,7 @@ button{
     color: var(--white);
     border: none;
     text-align: center;
+    margin: 50%;
 }
 
 .navbar{
