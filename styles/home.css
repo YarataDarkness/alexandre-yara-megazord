@@ -103,6 +103,7 @@ button{
     width: 100%;
     background-color: var(--black);
     color: #fbfff1ff;
+    text-align: center;
 }
 
 .nav-link{
