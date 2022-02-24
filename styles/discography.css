@@ -30,6 +30,10 @@ body {
     font-size:25px;
 }
 
+li{
+    font-family: var(--normal);
+}
+
 .hero{
     text-align: center;
     color: #fff;
@@ -40,13 +44,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-@media screen and (orientation: landscape){
-    .hero{
-        height: 56.25%;
-        background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://www.mobygames.com/images/covers/l/534548-sonic-adventure-playstation-3-front-cover.jpg");
-    }
 }
 
 .hero h1{
@@ -61,7 +58,34 @@ body {
     object-fit: cover;
 }
 
-button{
+.navbar{
+    color: #fff;
+    background-color: #000;
+    width: 100vw;
+    margin-top: 45px;
+}
+
+#mainNav a{
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.albums{
+    margin: 20px 0 20px 0;
+}
+
+.albumOl{
+    color: #fff;;
+}
+
+.button{
+    margin-top: 0;
+    margin-left: auto;
     font-family: var(--normal);
     padding: 25px;
     border-radius: 20px;
@@ -71,9 +95,53 @@ button{
     border: none;
 }
 
+.buttonAlbum{
+    margin-top: 0;
+    margin-left: auto;
+    font-family: var(--normal);
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: var(--dark_blue);
+    color: var(--white);
+    border: none;
+}
+
+.row {
+    margin: 20px 0 20px 0;
+}
+
+.imgAlbum{
+    width: 450px;
+    margin-top: 20px;
+}
+
 footer{
     text-align:center;
     background-color:var(--red);
     margin-top: 20px;
     padding: 20px;
+}
+
+.link{
+    color:var(--black);
+    text-decoration: none;
+}
+
+.link:hover{
+    color:var(--black);
+    text-decoration: none;
+}
+
+@media screen and (orientation: landscape){
+    .hero{
+        height: 56.25%;
+        background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://www.mobygames.com/images/covers/l/534548-sonic-adventure-playstation-3-front-cover.jpg");
+    }
+    .navbar{
+        background-color: #000;;
+        width: 100vw;
+        margin-top: 175px;
+    }
+    
 }
