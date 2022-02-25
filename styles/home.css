@@ -85,7 +85,7 @@ li{
 
 .card{
     width:auto;
-    border: none
+    border: none;
 }
 
 @media (min-width: 768px) {
