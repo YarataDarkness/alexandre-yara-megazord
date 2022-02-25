@@ -9,62 +9,11 @@
 --normal:'Quicksand', sans-serif;
 }
 
-body{
+body {
     height: 100vh;
     font-size: 16px;
     background-color: var(--blue);
 }
-
-@media screen and(orientation: landscape) {
-    .insidehero{
-        height: 56.25%;
-    }
-}
-
-picture{
-    width: 100vw;
-    height: 100vh;
-}
-
-.hero-img{
-    position: relative;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    opacity: 35%;
-}
-
-.insidehero{
-    width: 100vw;
-    height: 100vh;
-
-    
-
-    top: 0px;
-    right: 0px;
-    bottom:0px;
-    left:0px;
-    
-
-}
-
-
-
-
-
-
-
-
-h1{
-    font-family: var(--title);
-    font-size:48px;
-    text-align: center;
-}
-
-p{
-    text-align: center;
-}
-
 
 .title-1{
     font-family: var(--title);
@@ -79,16 +28,68 @@ p{
 .title-3{
     font-family: var(--normal);
     font-size:25px;
-    color:var(--black);
 }
 
-
-p{
-    font-family: var(--title);
-    font-size:32px;
+li{
+    font-family: var(--normal);
 }
 
-button{
+.hero{
+    text-align: center;
+    color: #fff;
+    /*width: 100vw;*/
+    height: 100vh;
+    background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://i.imgur.com/hi1UNMT.jpg");
+    background-position-y: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.hero h1{
+    margin-top: 25%;
+}
+
+.imgHero{
+    background-image: linear-gradient(var(--blue_opa), var(--blue));
+}
+.imgHero img{
+    position: relative;
+    color: var(--blue_opa);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-image: linear-gradient(var(--blue_opa), var(--blue));
+}
+
+.navbar{
+    color: #fff;
+    background-color: #000;
+    width: 100vw;
+    margin-top: 45px;
+}
+
+#mainNav a{
+    padding: 20px;
+    text-decoration: none;
+    
+}
+
+.navbar-brand img{
+    width: 50px;
+}
+
+.albums{
+    margin: 20px 0 20px 0;
+}
+
+.albumOl{
+    color: #fff;;
+}
+
+.button{
+    margin-top: 0;
+    margin-left: auto;
     font-family: var(--normal);
     padding: 25px;
     border-radius: 20px;
@@ -96,80 +97,55 @@ button{
     background-color: var(--dark_blue);
     color: var(--white);
     border: none;
-    text-align: center;
 }
 
-.navbar{
-    width: 100%;
-    background-color: var(--black);
-    color: #fbfff1ff;
-    text-align: center;
+.buttonAlbum{
+    margin-top: 0;
+    margin-left: auto;
+    font-family: var(--normal);
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 5px;
+    background-color: var(--dark_blue);
+    color: var(--white);
+    border: none;
 }
 
-.nav-link{
-    color: #fbfff1ff;
+.row {
+    margin: 20px 0 20px 0;
 }
 
-.navbar-toggler-icon{
-    color: #fbfff1ff;
+.imgAlbum{
+    width: 450px;
+    margin-top: 20px;
 }
 
 footer{
     text-align:center;
     background-color:var(--red);
-    margin-bottom: 20px;
+    margin-top: 20px;
     padding: 20px;
-    position: relative;
-
-}
-
-.crush-logo{
-    padding: 0;
-    position: relative;
-    width: 100%;
-    object-fit: cover;
-    max-width: 100%;
-    height: auto;
-} 
-
-.crush-logo-pic{
-    padding: 0;
-    position: relative;
-    width: 500;
-    object-fit: cover;
-    max-width: 100%;
-    height: auto;
-}
-
-
-
-.undefined-img{
-    position: relative;
-    width: 300px;
-    height: 300px;
-}
-
-#barre-lateral{
-    right:auto;
-    width: 20%;
-}
-
-#barre-lateral img{
-    max-width: 100%;
-    height: auto;
 }
 
 .link{
-
     color:var(--black);
     text-decoration: none;
-    text-align: center;
 }
 
-
 .link:hover{
-
     color:var(--black);
     text-decoration: none;
+}
 
+@media screen and (orientation: landscape){
+    .hero{
+        height: 56.25%;
+        background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://i.imgur.com/gKLj1PA.png");
+    }
+    .navbar{
+        background-color: #000;;
+        width: 100vw;
+        margin-top: 175px;
+    }
+    
 }
