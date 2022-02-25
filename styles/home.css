@@ -39,7 +39,7 @@ li{
     color: #fff;
     /*width: 100vw;*/
     height: 100vh;
-    background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://i.imgur.com/hi1UNMT.jpg");
+    background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://i.imgur.com/gKLj1PA.png");
     background-position-y: 25%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -140,7 +140,7 @@ footer{
 @media screen and (orientation: landscape){
     .hero{
         height: 56.25%;
-        background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://i.imgur.com/gKLj1PA.png");
+        background-image: linear-gradient(var(--blue_opa), var(--blue)), url("https://i.imgur.com/hi1UNMT.jpg");
     }
     .navbar{
         background-color: #000;;
