@@ -94,6 +94,11 @@ li{
     font-size:32px;
 }
 
+.card p{
+    font-family: var(--normal);
+    font-size:25px;
+}
+
 @media (min-width: 768px) {
     .card{
         width: 50%;
