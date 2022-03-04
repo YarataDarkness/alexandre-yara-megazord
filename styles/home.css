@@ -183,4 +183,6 @@ footer{
 
 video{
     padding-top: 20px;
+
+    display: flex;
 }
