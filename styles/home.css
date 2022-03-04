@@ -186,4 +186,5 @@ video{
 
     display: flex;
     justify-content: center;
+    align-self: center;
 }
