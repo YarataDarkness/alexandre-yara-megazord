@@ -1,3 +1,10 @@
+new Swiper(swiperContainer, parameters);
+
+
+
+
+
+
 const swiper = new Swiper('.swiper', {
     // Optional parameters
     direction: 'vertical',
