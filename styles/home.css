@@ -211,3 +211,8 @@ footer .title-3:active{
 
     padding-top: 40px;
 }
+
+.swiper {
+    width: 600px;
+    height: 300px;
+}
