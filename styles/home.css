@@ -204,3 +204,8 @@ footer .title-3:active{
     width: 300px;
     margin: auto;
 }
+
+.video-crush40{
+    width: 100%;
+    aspect-ratio: 16/9;
+}
