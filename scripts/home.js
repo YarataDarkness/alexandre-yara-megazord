@@ -1,6 +1,6 @@
 new Swiper(swiperContainer, parameters);
 
-
+var swiper = new Swiper(".mySwiper",{});
 
 
 
