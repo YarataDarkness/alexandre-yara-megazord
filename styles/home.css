@@ -216,3 +216,12 @@ footer .title-3:active{
     width: 600px;
     height: 300px;
 }
+
+.swiper-slide{
+    aspect-ratio: 16/9;
+    
+}
+
+.swiper-slide img{
+    object-fit: cover;
+}
