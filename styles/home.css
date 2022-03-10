@@ -208,4 +208,6 @@ footer .title-3:active{
 .video-crush40{
     width: 100%;
     aspect-ratio: 16/9;
+
+    padding-top: 20px;
 }
