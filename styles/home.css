@@ -224,4 +224,5 @@ footer .title-3:active{
 
 .swiper-slide img{
     object-fit: cover;
+    width: 100%;
 }
