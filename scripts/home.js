@@ -1,12 +1,32 @@
 
-const swiper = new Swiper('.swiper');
+const swiper = new Swiper('.swiper', {
+
+   // If we need pagination
+    pagination: {
+     el: '.swiper-pagination',
+    },
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     // Optional parameters
    // direction: 'vertical',
    // loop: true,
   
     // If we need pagination
-    //pagination: {
-     // el: '.swiper-pagination',
+   // pagination: {
+    // el: '.swiper-pagination',
    // },
   
     // Navigation arrows
