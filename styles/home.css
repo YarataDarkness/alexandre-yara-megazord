@@ -212,6 +212,15 @@ footer .title-3:active{
     padding-top: 40px;
 }
 
+
+section .swiper
+{
+  background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 42%, rgba(38,103,255,1) 78%);
+}
+
+
+
 .swiper {
     width: 600px;
     height: 300px;
