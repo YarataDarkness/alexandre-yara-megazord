@@ -226,3 +226,9 @@ footer .title-3:active{
     object-fit: cover;
     width: 100%;
 }
+
+#img-promo-section{
+    text-align: center;
+    background: rgb(108,144,173);
+    background: radial-gradient(circle, rgba(108,144,173,1) 36%, rgba(38,103,255,1) 51%);
+}
