@@ -25,6 +25,48 @@ gsap.to('section', {
 });
 
 
+//sprite work//
+
+const isbody = document.querySelector('body');
+const issonic = document.querySelector('.sprite');
+let isScrolling;
+
+
+window.addEventListener('scroll', function(){
+    window.clearTimeout( isScrolling );
+    isbody.classList.add("is-scrolling");
+
+
+    isScrolling = setTimeout(function(){
+        isbody.classList.remove("is-scrolling");
+      }, 250);
+
+
+    gsap.to('.sonic',{
+        y: '10%',
+        scrollTrigger:{
+          scrub: true,
+          markers: true,
+          start: 'top 20%',
+          end: 'bottom 50%',
+          trigger: '.sprite',
+          onEnter: (e) => {
+            isbody.classList.remove("spriteup");
+            isbody.classList.add("spritefall");
+          },
+          onEnterBack: (e) => {
+            isbody.classList.remove("spritefall");
+            isbody.classList.add("spriteup");
+          }
+        }
+      })
+
+
+
+
+
+
+});    
 //
 
 
