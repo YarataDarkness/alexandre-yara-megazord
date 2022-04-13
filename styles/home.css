@@ -265,7 +265,7 @@ span .swiper-pagination-bullet{
     animation-timing-function: steps(7);
   }
 
-  .spritefall{
+  .sprite.spritefall{
     width: 252px;
     height: 252px;
     background-image: url('https://i.imgur.com/cYzhYrx.png');
@@ -276,7 +276,7 @@ span .swiper-pagination-bullet{
     animation-timing-function: steps(7);
   }
 
-  .spriteup{
+  .sprite.spriteup{
     width: 252px;
     height: 252px;
     background-image: url('https://i.imgur.com/9AWpr6W.png');
