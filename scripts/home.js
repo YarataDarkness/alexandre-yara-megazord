@@ -42,7 +42,7 @@ window.addEventListener('scroll', function(){
       }, 250);
 
 
-    gsap.to('.sonic',{
+    gsap.to('body',{
         y: '10%',
         scrollTrigger:{
           scrub: true,
