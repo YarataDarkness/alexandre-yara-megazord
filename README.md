@@ -16,4 +16,5 @@ OPTIMISATION WEB
 <h5>Yara Abdanor</h5>
 
 - [Idle](https://codepen.io/Yarata/pen/KKZxzPE)
-- 🔵 Alexandre Daniel
+- [fall](https://codepen.io/Yarata/pen/JjMaVMg)
+- [up](https://codepen.io/Yarata/pen/MWrqRZZ)
