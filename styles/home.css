@@ -248,6 +248,10 @@ span .swiper-pagination-bullet{
 }
 
 
+.sonic{
+    margin: 0%;
+    position: fixed;
+}
 
 .sprite{
     width: 252px;
