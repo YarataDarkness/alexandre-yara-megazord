@@ -42,14 +42,14 @@ window.addEventListener('scroll', function(){
       }, 250);
 
 
-    gsap.to('.sprite',{
+    gsap.to('.sonic',{
         y: '10%',
         scrollTrigger:{
           scrub: true,
           markers: true,
           start: 'top 20%',
           end: 'bottom 50%',
-          
+          trigger: '.sprite',
           onEnter: (e) => {
             isbody.classList.remove("spriteup");
             isbody.classList.add("spritefall");
