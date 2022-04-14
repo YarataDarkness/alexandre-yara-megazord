@@ -263,7 +263,7 @@ span .swiper-pagination-bullet{
 }
 @keyframes idle {
     from { background-position: 0 0; }
-    to { background-position: 0 -10080px; }
+    to { background-position: 0 -11760; }
 }
 
 .is-scrolling.direction-down .container #divAnim{
@@ -278,7 +278,7 @@ span .swiper-pagination-bullet{
 }
 @keyframes down {
     from { background-position: 0 0; }
-    to { background-position: 0 -10080px; }
+    to { background-position: 0 -11760; }
 }
 
 .is-scrolling.direction-up .container #divAnim{
@@ -290,5 +290,5 @@ span .swiper-pagination-bullet{
 }
 @keyframes up {
     from { background-position: 0 0; }
-    to { background-position: 0 -10080px; }
+    to { background-position: 0 -11760; }
 }
