@@ -21,4 +21,4 @@ OPTIMISATION WEB
 
 <h5>Alexandre Daniel</h5>
 
-- [up](https://codepen.io/PouPou/pen/yLpRyYp)
+- [Idle](https://codepen.io/PouPou/pen/yLpRyYp)
