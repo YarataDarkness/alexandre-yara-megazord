@@ -274,7 +274,7 @@ span .swiper-pagination-bullet{
     animation-name: fall;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-timing-function: steps(7);
+    animation-timing-function: steps(24);
 }
 @keyframes down {
     from { background-position: 0 0; }
