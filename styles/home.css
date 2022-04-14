@@ -259,11 +259,11 @@ span .swiper-pagination-bullet{
     animation-name: idle;
     animation-duration: 1s;
     animation-iteration-count: infinite;
-    animation-timing-function: steps(7);
+    animation-timing-function: steps(27);
 }
 @keyframes idle {
     from { background-position: 0 0; }
-    to { background-position: 0 -11760; }
+    to { background-position: 0 11760; }
 }
 
 .is-scrolling.direction-down .container #divAnim{
@@ -278,7 +278,7 @@ span .swiper-pagination-bullet{
 }
 @keyframes down {
     from { background-position: 0 0; }
-    to { background-position: 0 -11760; }
+    to { background-position: 0 11760; }
 }
 
 .is-scrolling.direction-up .container #divAnim{
@@ -290,5 +290,5 @@ span .swiper-pagination-bullet{
 }
 @keyframes up {
     from { background-position: 0 0; }
-    to { background-position: 0 -11760; }
+    to { background-position: 0 11760; }
 }
