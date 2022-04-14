@@ -1,7 +1,3 @@
-
-<link rel="stylesheet" href="styles/home.css">
-<script src="scripts/main.js"></script>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,95 +5,264 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles/home.css">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+
+
+    <link
+  rel="stylesheet"
+  href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+   />
+    
 </head>
 <body>
 
-  <!-- etape 3.3.1 -->
-<div class="container">
-  <div class="row justify-content-end">
-    <div id="barre-lateral" class="d-none d-md-block ">
-      <picture>
-        <img class="undefined-img" src="img/undefined - Imgur.png">
-      </picture>
-    </div>
-  </div>
-</div>
 
 
-
-  <div id="main" class="container">
-  
-
-    <div class="row justify-content-center">
-
-      <div class="insidehero col-12 col-md-6 col-xxl-4">
-
-        <nav class="navbar navbar-dark navbar-expand-sm sticky-top">
-            
-            <!-- etape 3.1.6 -->
-  
-            <div class="container">
-                <div id="mainNav" class="collapse navbar-collapse">
-  
-                  <picture class="crush-logo">
-                    <img class="crush-logo-pic" src="img/Crush40Logo-2010.png"> 
-                  </picture>
-                  
-                    <!-- Hamburger button -->
-                    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Affichage/masquage de la navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-  
-  
-  
-                      <!-- Navigation -->
-                      <div id="mainNav" class="collapse navbar-collapse">
-                        <ul class="navbar-nav">
-                          <li class="nav-item">
-                            <a href="index.html" class="nav-link">Accueil</a>
-                          </li>
-                          <li class="nav-item">
-                            <a href="discographie.html" class="nav-link">Discographie</a>
-                          </li>
-                        </ul>
-                      </div>
-  
-  
-  
-                  </div>
-            </div>
-        </nav>
-        <h1>CRUSH 40</h1>
-        <p>
-            CRUSH 40 est un groupe metal rock americain-japonais. Ils sont surtout connu pour leur chansons utiliser dans les jeux Sonic.
-        </p>
-        <button>En savoir plus</button>
-    <picture class="hero-pic">
-        <source srcset="img/crush-accueil.jpg" media="(orientation: landscape)">
-        <img class="hero-img" src="img/Crush-40-portrait.png">
-      </picture>
-    </div>
-    <header>
-        <nav>
-            
-        </nav>
-    </header>
-    <article>
-  
-    </article>
+    <div class="hero">
     
-    <!-- etape 3.2.6 n 7 -->
-    <footer>
-      <div class="container">
-        <div class="row justify-content-end"> 
-          <h3 class="title-3">Alexandre Daniel</br>Yara Abdanor</h3>
+        <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+                <div class="col-12"></div>
+              </div>
+
+              <!---spritesheet-->
+              <div id="divAnim" class="col-3">
+              </div>
+
+
+        </div>
+        
+    </picture>
+
+
+    <h1 class="title-1">Accueil</h1>
+    <h3 class="title-2">Le groupe de musique pop-rock de <i>Sonic the Hedgehog</i></h3>
+    <button type="button" class="button" href="#">En savoir plus</button>
+    </div>
+
+    <nav class="navbar navbar-light navbar-expand-sm sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="img/Crush_40_log_nav.jpg" />
+            </a>
+          <div id="mainNav" class="collapse navbar-collapse">
+            <a href="index.html">Accueil</a>
+            <a href="discographie.html">Discographie</a>
+          </div>
+        </div>
+      </nav>
+
+
+      <!---VIDEO-->
+      
+      <iframe class="video-crush40" src="https://www.youtube.com/embed/d53ZY81MA0o" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      
+      
+      <!---carrousel-->
+      <section>
+        <h1 id="img-promo-section" class="title-2">Images promotionnelles</h1>
+        <!---slide-->
+
+        <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="img/promo-img-1.jpg_large">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="img/promo-img-2.jpg_large.jpg">
+        </div>
+
+        <div class="swiper-slide">
+          <img src="img/promo-img-3.jfif">
+        </div>
+
+        </div>
+
+        <!-- If we need pagination -->
+        <div id="bullet-lads" class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+          <span class="swiper-pagination-bullet swiper-pagination-bullet-active" aria-current="true"></span>
+          <span class="swiper-pagination-bullet"></span>
+          <span class="swiper-pagination-bullet"></span>
+        </div>
+
+        <!-- If we need navigation buttons 
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+         If we need scrollbar
+        <div class="swiper-scrollbar"></div> -->
+
+      </div>
+
+
+      </section>
+
+
+
+
+
+
+    <!---card du groupe-->
+      <section class="groupe">
+        <div class="container-fluid">
+          <div class="row">
+
+            <div class="card">
+              <img src="img/Gioeli.jpg" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Johnny Gioeli</h3>
+                <p>Chanteur du groupe. Il est americain et etait avant, chanteur de d'autres groupe comme Hardline et Axel Rudi Pell Band. Il a maintenant 54 ans et continue d'etre le chanteur principale de Crush 40.</p>
+              </div>
+            </div>
+          
+            <div class="card">
+              <img src="img/jun-senoue.jpg" class="card-img-top">
+              <div class="card-body">
+                <h3 class="card-title">Jun Senoue</h3>
+                <p>Guitariste du groupe. Il est japonais et a debuter dans la musique de jeux video en 1993. Il a maintenant 51 ans et continue de faire de la musique pour des jeux videos comme sonic et pour Crush 40. </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    
+</body>
+
+<footer>
+    <div class="container">
+        <div class="row justify-content-end">
+        <div class="col-4">
+            <h3 class="title-3">Alexandre Daniel</br> Yara Abdanor</h3>
         </div>
         <div class="col-8"><h3 class="title-3"><a class="link" href="https://github.com/YarataDarkness/alexandre-yara-megazord">https://github.com/YarataDarkness/alexandre-yara-megazord</a></br>Ⓒ2022</h3></div>
-      </div>
-    </footer>
-  
     </div>
-  </div>
-        
-</body>
+
+
+    <!-- modal -->
+
+
+    <div class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Alexandre Daniel</h2>
+            <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la fenêtre"></button>
+          </div>
+          <div class="modal-body">
+            <h1>Alexandre Daniel</h1>
+            <img src="img/alexandre.png" class="image-alexandre">
+          </div>
+          <div class="modal-footer">
+            <button class="btn" data-bs-dismiss="modal">
+
+            </button>
+          </div>
+          <button class="btn" data-bs-toggle="modal" data-bs-target="#example">
+
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="modal fade" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title">Yara Abdanor</h2>
+            <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la fenêtre"></button>
+          </div>
+          <div class="modal-body">
+            <h1>Yara Abdanor</h1>
+            <img src="img/yara.png" class="image-yara">
+          </div>
+          <div class="modal-footer">
+            <button class="btn" data-bs-dismiss="modal">
+
+            </button>
+          </div>
+          <button class="btn" data-bs-toggle="modal" data-bs-target="#example">
+
+          </button>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+     <!--<div class="modal fade" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h2 class="modal-title"></h2>
+              <button class="btn-close" data-bs-dismiss="modal" aria-label="Fermer la fenêtre"></button>
+            </div>
+            <div class="modal-body">
+              <p></p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn" data-bs-dismiss="modal">
+
+              </button>
+            </div>
+            <button class="btn" data-bs-toggle="modal" data-bs-target="#example">
+
+            </button>
+          </div>
+        </div>
+      </div>-->
+
+
+
+
+
+
+
+
+</div>
+</footer><!--Rendu à l'étape 7 et voir pour position-->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/ScrollTrigger.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.0/gsap.min.js"></script>
+<script src="scripts/home.js"></script>
+
+
 </html>
