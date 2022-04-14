@@ -267,7 +267,7 @@ span .swiper-pagination-bullet{
 }
 
 .is-scrolling.direction-down .container #divAnim{
-    background-image: url('https://i.imgur.com/cYzhYrx.png');
+    background-image: url("../img/SPRITESHEET_SANIC_GIF/FALL_SHEET.png");
     animation-name: down;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -279,7 +279,7 @@ span .swiper-pagination-bullet{
 }
 
 .is-scrolling.direction-up .container #divAnim{
-    background-image: url('https://i.imgur.com/9AWpr6W.png');
+    background-image: url("../img/SPRITESHEET_SANIC_GIF/UP_SHEET.png");
     animation-name: up;
     animation-duration: 1s;
     animation-iteration-count: infinite;
