@@ -255,7 +255,7 @@ span .swiper-pagination-bullet{
     top:50%;
     left: 70%;
     position: fixed;
-    background-image: url("../img/Egg_Final_Spritesheet_idle.png");
+    background-image: url("https://i.imgur.com/Fv8G7q7.png");
     animation-name: idle;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -267,7 +267,7 @@ span .swiper-pagination-bullet{
 }
 
 .is-scrolling.direction-down .container #divAnim{
-    background-image: url("../img/Egg_Final_Spritesheet_down.png");
+    background-image: url("https://i.imgur.com/cYzhYrx.png");
     animation-name: down;
     animation-duration: 1s;
     animation-iteration-count: infinite;
@@ -279,7 +279,7 @@ span .swiper-pagination-bullet{
 }
 
 .is-scrolling.direction-up .container #divAnim{
-    background-image: url("../img/Egg_Final_Spritesheet_up.png");
+    background-image: url("https://i.imgur.com/9AWpr6W.png");
     animation-name: up;
     animation-duration: 1s;
     animation-iteration-count: infinite;
