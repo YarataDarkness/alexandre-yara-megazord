@@ -20,6 +20,5 @@ OPTIMISATION WEB
 - [up](https://codepen.io/Yarata/pen/MWrqRZZ)
 
 <h5>Alexandre Daniel</h5>
-- [Idle](https://codepen.io/PouPou/pen/yLpRyYp)
-- [fall](https://codepen.io/PouPou/pen/Exodamr)
-- [up](https://codepen.io/PouPou/pen/NWXOPgv)
+[idle](https://codepen.io/PouPou/pen/yLpRyYp)
+
