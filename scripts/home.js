@@ -27,47 +27,39 @@ gsap.to('section', {
 
 //sprite work//
 
-const isbody = document.querySelector('body');
-const issonic = document.querySelector('.sprite');
+//
+
+const body = document.querySelector('body');
 let isScrolling;
 
+window.addEventListener('scroll', function() {
+	window.clearTimeout( isScrolling );
+  body.classList.add("is-scrolling");
 
-window.addEventListener('scroll', function(){
-    window.clearTimeout( isScrolling );
-    isbody.classList.add("is-scrolling");
+	isScrolling = setTimeout(function() {
+    body.classList.remove("is-scrolling");
+	}, 250);
+});
 
-
-    isScrolling = setTimeout(function(){
-        isbody.classList.remove("is-scrolling");
-      }, 250);
-
-
-    gsap.to('.sonic',{
-        y: '10%',
-        scrollTrigger:{
-          scrub: true,
-          markers: true,
-          start: 'top 20%',
-          end: 'bottom 50%',
-          trigger: '.sprite',
-          onEnter: (e) => {
-            isbody.classList.remove("spriteup");
-            isbody.classList.add("spritefall");
-          },
-          onEnterBack: (e) => {
-            isbody.classList.remove("spritefall");
-            isbody.classList.add("spriteup");
-          }
+let anim = gsap.timeline({
+  scrollTrigger: {
+    trigger: '#divAnim',
+    
+    onUpdate: (e) => { 
+      
+      if(e.progress){
+         if(e.direction==-1){
+          body.classList.add("direction-up");
+          body.classList.remove("direction-down");
+        }else{
+          body.classList.add("direction-down");
+          body.classList.remove("direction-up");
         }
-      })
-
-
-
-
-
-
-});    
-//
+      }
+    }
+  
+  }
+});
 
 
 
