@@ -216,7 +216,7 @@ footer .title-3:active{
 section .swiper
 {
   background: rgb(255,255,255);
-    background: radial-gradient(circle, rgba(255,255,255,1) 42%, rgba(38,103,255,1) 78%);
+  background: radial-gradient(circle, rgba(255,255,255,1) 42%, rgba(38,103,255,1) 78%);
 }
 
 
@@ -291,4 +291,11 @@ span .swiper-pagination-bullet{
 @keyframes up {
     from { background-position: 0 0; }
     to { background-position: 0 11760; }
+}
+
+
+
+
+.mb-3{
+
 }
