@@ -296,8 +296,16 @@ span .swiper-pagination-bullet{
 
 
 
-.mb-3{
+.secdeparoles{
     text-align: center;
     background: rgb(108,144,173);
     background: radial-gradient(circle, rgba(108,144,173,1) 36%, rgba(38,103,255,1) 51%);
+
+    font-family: var(--title);
+    font-size: 32px;
+}
+
+.tobefectched{
+    font-family: var(--normal);
+    font-size: 32px;
 }
