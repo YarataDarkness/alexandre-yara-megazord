@@ -6,7 +6,7 @@ OPTIMISATION WEB
 
 [Optimisation web - Megazord](https://smnarnold.com/projets/megazord)
 
-(https://yaratadarkness.github.io/alexandre-yara-megazord/)
+[Site Web](https://yaratadarkness.github.io/alexandre-yara-megazord/)
 
 
 <h4>Équipe</h4>
