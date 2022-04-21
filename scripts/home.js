@@ -62,7 +62,13 @@ let anim = gsap.timeline({
 });
 
 //TP 08 ETAPE 4
-
+fetch("https://api.lyrics.ovh/v1/") // L'adresse URL des données à aller chercher
+  .then(data => { // Attendre que les données soient reçues
+    // Convertir les données au format désiré
+  })
+  .then(result => { // Attendre que les données soient converties
+    // Faire du résultat ce que bon vous semble
+  });
 
 
 
