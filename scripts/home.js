@@ -10,7 +10,7 @@ const swiper = new Swiper('.swiper', {
 gsap.to('.issectioncarou', {
     scrollTrigger: 'section',
     markers: true,
-    y: '-20%',
+    y: '-10%',
     opacity: '100%',
     toggleActions: 'restart complete reverse reset',
     duration: 2,
