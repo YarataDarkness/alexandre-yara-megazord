@@ -78,9 +78,9 @@ fetch("https://api.lyrics.ovh/v1/") // L'adresse URL des données à aller cherc
 
 
 //TP 08 ETAPE 5.1
-const isrecherche = document.querySelector('#isrecherche');
+const isform = document.querySelector('form');
 
-isrecherche.addEventListener("submit", function(e){
+isform.addEventListener("submit", function(e){
   e.preventDefault();
 });
 
