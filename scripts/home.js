@@ -75,8 +75,10 @@ fetch("https://api.lyrics.ovh/v1/") // L'adresse URL des données à aller cherc
   });
 
 
-
-
+//TP 08 ETAPE 6
+  const newLineToBr = function(str){​​​​​​​​​
+       return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
+    }​​​​​​​​​
 
 
 //
