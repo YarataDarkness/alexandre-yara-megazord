@@ -60,7 +60,8 @@ const istobefetched = document.querySelector('.tobefectched');
 
 
 //TP 08 ETAPE 4 et 5.3
-fetch("https://api.lyrics.ovh/v1/crush40/live%and%learn") // L'adresse URL des données à aller chercher
+//ETAPE 9: LIVE AND LEARN, 
+fetch("https://api.lyrics.ovh/v1/crush40/open&your&heart") // L'adresse URL des données à aller chercher
   .then(istobefetched => { // Attendre que les données soient reçues
     // Convertir les données au format désiré
   })
