@@ -7,7 +7,7 @@ const swiper = new Swiper('.swiper', {
     },
 });
 
-gsap.to('issectioncarou', {
+gsap.to('.issectioncarou', {
     scrollTrigger: 'section',
     markers: true,
     y: '20%',
