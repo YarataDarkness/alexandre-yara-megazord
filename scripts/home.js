@@ -65,6 +65,8 @@ let anim = gsap.timeline({
 const istobefetched = document.querySelector('.tobefectched');
 
 
+
+
 //TP 08 ETAPE 4
 fetch("https://api.lyrics.ovh/v1/") // L'adresse URL des données à aller chercher
   .then(istobefetched => { // Attendre que les données soient reçues
@@ -75,13 +77,25 @@ fetch("https://api.lyrics.ovh/v1/") // L'adresse URL des données à aller cherc
   });
 
 
+//TP 08 ETAPE 5
+const isrecherche = document.querySelector('#isrecherche');
+
+isrecherche.addEventListener("submit", function(){
+  e.preventDefault();
+});
+
+
+
+
+
+
 //TP 08 ETAPE 6
   const newLineToBr = function(str){​​​​​​​​​
        return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
     }​​​​​​​​​
 
 
-//
+//TP 08 ETAPE 6
 
 
     // Optional parameters
