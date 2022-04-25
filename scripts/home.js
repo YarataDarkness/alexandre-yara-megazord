@@ -66,14 +66,12 @@ fetch("https://api.lyrics.ovh/v1/crush40/open&your&heart") // L'adresse URL des 
     // Faire du résultat ce que bon vous semble
   });
 
-
 //TP 08 ETAPE 5.1
 const isform = document.querySelector('.parolesform');
 
 isform.addEventListener("submit", function(e){
   e.preventDefault();
 });
-
 
 //TP 08 ETAPE 6
 const newLineToBr = function(str) {
