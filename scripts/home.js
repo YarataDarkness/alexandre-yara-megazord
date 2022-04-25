@@ -57,12 +57,12 @@ let anim = gsap.timeline({
 const istobefetched = document.querySelector('.tobefectched');
 
 //TP 08 ETAPE 4 et 5.3
-//ETAPE 9: LIVE AND LEARN, 
-fetch("https://api.lyrics.ovh/v1/crush40/open&your&heart") // L'adresse URL des données à aller chercher
+//ETAPE 9: LIVE AND LEARN, open your heart
+fetch("https://api.lyrics.ovh/v1/crush40/") // L'adresse URL des données à aller chercher
   .then(istobefetched => { // Attendre que les données soient reçues
     // Convertir les données au format désiré
   })
-  .then(result => { // Attendre que les données soient converties
+  .then(result => createHtml(result){ // Attendre que les données soient converties
     // Faire du résultat ce que bon vous semble
   });
 
@@ -78,8 +78,15 @@ const newLineToBr = function(str) {
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
 }
 
+//TP 08 ETAPE 7
+promesse
+  .then(value => console.log())
+  .catch(error => console.log())
+  .finally(() => console.log(""));
 
-//TP 08 ETAPE 6
+
+
+
 
 
     // Optional parameters
