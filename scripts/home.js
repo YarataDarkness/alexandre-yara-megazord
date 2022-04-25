@@ -77,7 +77,7 @@ fetch("https://api.lyrics.ovh/v1/") // L'adresse URL des données à aller cherc
   });
 
 
-//TP 08 ETAPE 5
+//TP 08 ETAPE 5.1
 const isrecherche = document.querySelector('#isrecherche');
 
 isrecherche.addEventListener("submit", function(){
