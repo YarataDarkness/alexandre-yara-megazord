@@ -79,11 +79,14 @@ const newLineToBr = function(str) {
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
 }
 
+const isdivparoles = document.querySelector('.divforparoles');
+
 //TP 08 ETAPE 7
 promesse
   .then(value => console.log(value))
   //TP 08 ETAPE 8
-  .catch(error => console.log(error))
+  .catch(isdivparoles => isdivparoles.innerHTML("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
+  //.catch(error => console.log(error))
   .finally(() => console.log("Promesse complétée"));
 
 
