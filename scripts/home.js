@@ -82,6 +82,16 @@ const newLineToBr = function(str) {
 const isdivparoles = document.querySelector('.divforparoles');
 
 //TP 08 ETAPE 7
+const promesse = new Promise((resolve, reject) => {
+  const respectPromesse = true;
+
+  if (respectPromesse === true) {
+    resolve("Promesse respectée");
+  } else {
+    reject("Promesse brisée");
+  }
+});
+
 promesse
   .then(value => console.log(value))
   //TP 08 ETAPE 8
