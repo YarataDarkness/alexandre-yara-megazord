@@ -62,7 +62,7 @@ fetch("https://api.lyrics.ovh/v1/crush40/") // L'adresse URL des données à all
   .then(istobefetched => { // Attendre que les données soient reçues
     // Convertir les données au format désiré
   })
-  .then(result => createHtml(result),{ // Attendre que les données soient converties
+  .then(result => (result),{ // Attendre que les données soient converties
     // Faire du résultat ce que bon vous semble
   });
 
