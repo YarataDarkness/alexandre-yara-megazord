@@ -75,6 +75,7 @@ isform.addEventListener("submit", function(e){
 
 //TP 08 ETAPE 6
 const newLineToBr = function(str) {
+  result;
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
 }
 
