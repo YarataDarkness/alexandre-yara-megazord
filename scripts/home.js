@@ -80,9 +80,9 @@ const newLineToBr = function(str) {
 
 //TP 08 ETAPE 7
 promesse
-  .then(value => console.log())
-  .catch(error => console.log())
-  .finally(() => console.log(""));
+  .then(value => console.log(value))
+  .catch(error => console.log(error))
+  .finally(() => console.log("Promesse complétée"));
 
 
 
