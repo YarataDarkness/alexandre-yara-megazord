@@ -57,8 +57,8 @@ let anim = gsap.timeline({
 const istobefetched = document.querySelector('.tobefectched');
 
 //TP 08 ETAPE 4 et 5.3
-//ETAPE 9: LIVE AND LEARN, open your heart
-fetch("https://api.lyrics.ovh/v1/crush-40/") // L'adresse URL des données à aller chercher
+//ETAPE 9: All Hail Shadow, open your heart
+fetch("https://api.lyrics.ovh/v1/crush%2040/All%20Hail%20Shadow") // L'adresse URL des données à aller chercher
   .then(istobefetched => { // Attendre que les données soient reçues
     // Convertir les données au format désiré
   })
