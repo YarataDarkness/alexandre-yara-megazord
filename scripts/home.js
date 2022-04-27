@@ -93,7 +93,7 @@ const promesse = new Promise((resolve, reject) => {
 });
 
 promesse
-  .then(value => console.log(value))
+  .then(isdivparoles => isdivparoles.innerHTML(result))
   //TP 08 ETAPE 8
   .catch(isdivparoles => isdivparoles.innerHTML("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
   //.catch(error => console.log(error))
