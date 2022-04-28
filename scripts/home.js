@@ -101,28 +101,5 @@ const isspinnerborder = document.querySelector('.spinner-border');
 const isrecherche = document.querySelector('#isrecherche');
 
 isrecherche.addEventListener("submit", function(){
-  isspinnerborder.style.visibility=visible;
+  isspinnerborder.style.visibility="visible";
 })
-
-
-
-    // Optional parameters
-   // direction: 'vertical',
-   // loop: true,
-  
-    // If we need pagination
-   // pagination: {
-    // el: '.swiper-pagination',
-   // },
-  
-    // Navigation arrows
-    //navigation: {
-    //  nextEl: '.swiper-button-next',
-     // prevEl: '.swiper-button-prev',
-    //},
-  
-    // And if we need scrollbar
-   // scrollbar: {
-    //  el: '.swiper-scrollbar',
-    //},
- // });
