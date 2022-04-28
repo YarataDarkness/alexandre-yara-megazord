@@ -59,12 +59,8 @@ const istobefetched = document.querySelector('.tobefectched');
 //TP 08 ETAPE 4 et 5.3
 //ETAPE 9: All Hail Shadow, open your heart
 fetch("https://api.lyrics.ovh/v1/crush%2040/All%20Hail%20Shadow") // L'adresse URL des données à aller chercher
-  .then(istobefetched => { // Attendre que les données soient reçues
-    // Convertir les données au format désiré
-  })
-  .then(result => (result),{ // Attendre que les données soient converties
-    // Faire du résultat ce que bon vous semble
-  });
+  .then(lyric => (lyric))
+  .then(result => (result));
 
 //TP 08 ETAPE 5.1
 const isform = document.querySelector('.parolesform');
@@ -95,7 +91,7 @@ const promesse = new Promise((resolve, reject) => {
 promesse
   .then(result => isdivparoles.innerHTML(result))
   //TP 08 ETAPE 8
-  .catch(() => isdivparoles.innerHTML("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
+  .catch(lyric => isdivparoles.innerHTML("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
   //.catch(error => console.log(error))
   .finally(() => console.log("Promesse complétée"));
 
