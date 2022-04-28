@@ -313,3 +313,7 @@ span .swiper-pagination-bullet{
 #isrecherche{
     
 }
+
+.spinner-border{
+    visibility: hidden;
+}

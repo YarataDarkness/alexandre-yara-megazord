@@ -96,7 +96,13 @@ promesse
   .finally(() => console.log("Promesse complétée"));
 
 
+//TP 08 ETAPE 10
+const isspinnerborder = document.querySelector('.spinner-border');
+const isrecherche = document.querySelector('#isrecherche');
 
+isrecherche.addEventListener("submit", function(){
+  isspinnerborder.style.visibility=visible;
+})
 
 
 
