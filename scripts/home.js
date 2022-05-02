@@ -54,7 +54,7 @@ let anim = gsap.timeline({
 });
 
 
-const istobefetched = document.querySelector('input[name="inputtxt"]');
+const istobefetched = document.querySelector('.tobefectched');
 
 //TP 08 ETAPE 4 et 5.3
 //ETAPE 9: All Hail Shadow, open your heart
