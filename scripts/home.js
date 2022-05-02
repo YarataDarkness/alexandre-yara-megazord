@@ -93,9 +93,9 @@ const promesse = new Promise((resolve, reject) => {
 
 
 promesse
-  .then( => )
+  .then( isdivparoles => isdivparoles.innerhtml = (result))
   //TP 08 ETAPE 8
-  .catch( => ("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
+  .catch( isdivparoles => isdivparoles.innerhtml = ("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
   //.catch(error => console.log(error))
   .finally(() => console.log("Promesse complétée"));
 
