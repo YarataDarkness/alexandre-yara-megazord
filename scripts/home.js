@@ -58,7 +58,7 @@ const istobefetched = document.querySelector('.tobefectched');
 
 //TP 08 ETAPE 4 et 5.3
 //ETAPE 9: All Hail Shadow, open your heart
-fetch("https://api.lyrics.ovh/v1/crush%2040/All%20Hail%20Shadow") 
+fetch("https://api.lyrics.ovh/v1/crush%2040/") 
   .then(data => data.json()) 
   .then(result => { 
     console.log(result);
