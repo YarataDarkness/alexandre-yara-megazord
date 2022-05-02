@@ -53,7 +53,7 @@ let anim = gsap.timeline({
   }
 });
 
-
+var form = document.forms[0];
 const istobefetched = form.querySelector('input[name="inputtxt"]');
 
 //TP 08 ETAPE 4 et 5.3
