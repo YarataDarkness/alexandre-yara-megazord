@@ -45,24 +45,21 @@ let anim = gsap.timeline({
 
 const istobefetched = document.querySelector('.tobefectched');
 
-//TP 08 ETAPE 4 et 5.3
-//ETAPE 9: LIVE AND LEARN, open your heart
-fetch("https://api.lyrics.ovh/v1/crush40/") // L'adresse URL des données à aller chercher
-  .then(istobefetched => { // Attendre que les données soient reçues
-    // Convertir les données au format désiré
-  })
-  .then(result => (result),{ // Attendre que les données soient converties
-    // Faire du résultat ce que bon vous semble
-  });
 
-//TP 08 ETAPE 5.1
+fetch("https://api.lyrics.ovh/v1/crush%2040/istobefetched") 
+  .then(data => data.json()) 
+  .then(result => { 
+    console.log(result);
+  }); 
+
+
 const isform = document.querySelector('.parolesform');
 
 isform.addEventListener("submit", function(e){
   e.preventDefault();
 });
 
-//TP 08 ETAPE 6
+
 const newLineToBr = function(str) {
   result;
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
@@ -70,7 +67,6 @@ const newLineToBr = function(str) {
 
 const isdivparoles = document.querySelector('.divforparoles');
 
-//TP 08 ETAPE 7
 const promesse = new Promise((resolve, reject) => {
   const respectPromesse = true;
 
@@ -81,10 +77,19 @@ const promesse = new Promise((resolve, reject) => {
   }
 });
 
+
+
 promesse
-  .then(value => console.log(value))
+  .then( isdivparoles => isdivparoles.innerhtml = (result))
   //TP 08 ETAPE 8
-  .catch(isdivparoles => isdivparoles.innerHTML("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
+  .catch( isdivparoles => isdivparoles.innerhtml = ("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
   //.catch(error => console.log(error))
   .finally(() => console.log("Promesse complétée"));
 
+
+const isspinnerborder = document.querySelector('.spinner-border');
+const isrecherche = document.querySelector('#isrecherche');
+
+isrecherche.addEventListener("submit", function(){
+  isspinnerborder.style.visibility="visible";
+})
