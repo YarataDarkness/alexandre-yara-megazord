@@ -180,6 +180,10 @@ li{
     
 }
 
+.spinner-border{
+    visibility: hidden;
+}
+
 
 footer{
     text-align:center;
