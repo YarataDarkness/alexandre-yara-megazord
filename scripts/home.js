@@ -73,6 +73,7 @@ fetch("https://api.lyrics.ovh/v1/crush%2040/" + istobefetched
   .then(data => data.json()) 
   .then(result => { 
     console.log(result);
+    isdivparoles.innerHTML(result);
   }); 
 
 
