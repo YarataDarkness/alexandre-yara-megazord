@@ -1,3 +1,4 @@
+gsap.registerPlugin(ScrollTrigger);
 
 const swiper = new Swiper('.swiper', {
 
