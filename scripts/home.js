@@ -55,15 +55,9 @@ let anim = gsap.timeline({
 });
 
 
-const istobefetched = document.querySelector('.tobefectched');
+const istobefetched = document.querySelector('.tobefectched').value;
 
 //TP 08 ETAPE 4 et 5.3
-//ETAPE 9: All Hail Shadow, open your heart
-fetch("https://api.lyrics.ovh/v1/crush%2040/istobefetched") 
-  .then(data => data.json()) 
-  .then(result => { 
-    console.log(result);
-  }); 
 
 //TP 08 ETAPE 5.1
 const isform = document.querySelector('.parolesform');
@@ -71,6 +65,16 @@ const isform = document.querySelector('.parolesform');
 isform.addEventListener("submit", function(e){
   e.preventDefault();
 });
+
+//ETAPE 9: All Hail Shadow, open your heart
+fetch("https://api.lyrics.ovh/v1/crush%2040/" + istobefetched
+
+) 
+  .then(data => data.json()) 
+  .then(result => { 
+    console.log(result);
+  }); 
+
 
 //TP 08 ETAPE 6
 const newLineToBr = function(str) {
@@ -81,24 +85,24 @@ const newLineToBr = function(str) {
 const isdivparoles = document.querySelector('.divforparoles');
 
 //TP 08 ETAPE 7
-const promesse = new Promise((resolve, reject) => {
-  const respectPromesse = true;
+//const promesse = new Promise((resolve, reject) => {
+ // const respectPromesse = true;
 
-  if (respectPromesse === true) {
-    resolve("Promesse respectée");
-  } else {
-    reject("Promesse brisée");
-  }
-});
+//  if (respectPromesse === true) {
+ //   resolve("Promesse respectée");
+//  } else {
+///    reject("Promesse brisée");
+  //}
+//});
 
 
 
-promesse
-  .then( isdivparoles => isdivparoles.innerhtml = (result))
+//promesse
+//  .then( isdivparoles => isdivparoles.innerhtml = (result))
   //TP 08 ETAPE 8
-  .catch( isdivparoles => isdivparoles.innerhtml = ("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
+ // .catch( isdivparoles => isdivparoles.innerhtml = ("Désolé, les paroles n'ont pu être trouvées. En voici la raison:"))
   //.catch(error => console.log(error))
-  .finally(() => console.log("Promesse complétée"));
+ // .finally(() => console.log("Promesse complétée"));
 
 
 //TP 08 ETAPE 10
