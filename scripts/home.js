@@ -9,12 +9,12 @@ const swiper = new Swiper('.swiper', {
 });
 
 gsap.to('.issectioncarou', {
-    scrollTrigger: 'section',
+  scrollTrigger: 'section',
     markers: true,
     y: '-16%',
     opacity: '100%',
     toggleActions: 'restart complete reverse reset',
-    duration: 2,
+  duration: 2,
 });
 
 

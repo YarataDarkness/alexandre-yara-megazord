@@ -278,7 +278,7 @@ span .swiper-pagination-bullet{
 }
 
 .is-scrolling.direction-up .container #divAnim{
-    background-image: url('/img/SPRITESHEET_SANIC_GIF/UP_SHEET.png');
+    background-image: url('../img/SPRITESHEET_SANIC_GIF/UP_SHEET.png');
     animation-name: up;
     animation-duration: 1s;
     animation-iteration-count: infinite;
