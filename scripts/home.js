@@ -63,9 +63,6 @@ const istobefetched = document.querySelector('.tobefectched').value;
 const isform = document.querySelector('.parolesform');
 const isdivparoles = document.querySelector('.divforparoles');
 
-isform.addEventListener("submit", function(e){
-  e.preventDefault();
-});
 
 //ETAPE 9: All Hail Shadow, open your heart
 fetch("https://api.lyrics.ovh/v1/crush%2040/" + istobefetched
@@ -77,7 +74,9 @@ fetch("https://api.lyrics.ovh/v1/crush%2040/" + istobefetched
     isdivparoles.innerHTML(result);
   }); 
 
-
+  isform.addEventListener("submit", function(e){
+    e.preventDefault();
+  });
 //TP 08 ETAPE 6
 const newLineToBr = function(str) {
   result;
