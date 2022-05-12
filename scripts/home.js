@@ -65,7 +65,7 @@ const isdivparoles = document.querySelector('.divforparoles');
 
 
 //ETAPE 9: All Hail Shadow, open your heart
-istobefetched="All Hail Shadow";
+istobefetched="All Hail Shadow"
 
 fetch("https://api.lyrics.ovh/crush%40/" + istobefetched
 
