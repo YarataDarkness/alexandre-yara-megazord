@@ -61,6 +61,7 @@ const istobefetched = document.querySelector('.tobefectched').value;
 
 //TP 08 ETAPE 5.1
 const isform = document.querySelector('.parolesform');
+const isdivparoles = document.querySelector('.divforparoles');
 
 isform.addEventListener("submit", function(e){
   e.preventDefault();
@@ -83,7 +84,6 @@ const newLineToBr = function(str) {
   return str.replace(/(?:\r\n|\r|\n)/g, '<br>');
 }
 
-const isdivparoles = document.querySelector('.divforparoles');
 
 //TP 08 ETAPE 7
 //const promesse = new Promise((resolve, reject) => {
