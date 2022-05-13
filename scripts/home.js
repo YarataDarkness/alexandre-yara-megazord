@@ -65,17 +65,10 @@ const isdivparoles = document.querySelector('.divforparoles');
 
 
 //ETAPE 9: All Hail Shadow, open your heart
-istobefetched="All Hail Shadow"
+let istobefetchedsong="All Hail Shadow"
 
-fetch("https://api.lyrics.ovh/crush%40/" + istobefetched
 
-) 
-
-  .then(data => data.json()) 
-  .then(result => { 
-    console.log(result);
-    isdivparoles.innerHTML(result);
-  }); 
+fetch("https://api.lyrics.ovh/v1/Crush 40/" + istobefetchedsong) .then(data => data.json()) .then(result => {     console.log(result); });
 
   isform.addEventListener("submit", function(e){
     e.preventDefault();
