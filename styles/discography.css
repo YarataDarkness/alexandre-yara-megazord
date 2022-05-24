@@ -176,8 +176,9 @@ li{
     font-size: 32px;
 }
 
-#isrecherche{
-    
+
+.videoSection{
+    margin-left: 30vw;
 }
 
 .spinner-border{
